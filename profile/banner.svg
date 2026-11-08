@@ -1,0 +1,35 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D82223"/>
+      <stop offset="0.5" stop-color="#EB6428"/>
+      <stop offset="1" stop-color="#F3A83A"/>
+    </linearGradient>
+    <radialGradient id="blobR" cx="0.85" cy="0.15" r="0.7">
+      <stop offset="0" stop-color="#D82223" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#D82223" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blobA" cx="0.1" cy="1" r="0.6">
+      <stop offset="0" stop-color="#F3A83A" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#F3A83A" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" fill="#0A0A0C"/>
+  <rect width="1200" height="320" fill="url(#grid)"/>
+  <rect width="1200" height="320" fill="url(#blobR)"/>
+  <rect width="1200" height="320" fill="url(#blobA)"/>
+
+  <rect x="72" y="96" width="56" height="3" fill="url(#brand)"/>
+  <text x="70" y="200" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="110" font-weight="700" fill="#FFFFFF" letter-spacing="-4">Warru<tspan fill="url(#brand)">:</tspan></text>
+
+  <text x="76" y="252" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="30" font-weight="400" fill="#A1A1AA">We build what <tspan fill="url(#brand)" font-weight="600">others can&#8217;t.</tspan></text>
+
+  <text x="76" y="290" font-family="ui-monospace, 'SF Mono', monospace" font-size="14" font-weight="500" fill="#71717a" letter-spacing="5">SOFTWARE ENGINEERING STUDIO &#8212; ALGERIA &#8594; WORLDWIDE</text>
+
+  <text x="1128" y="44" text-anchor="end" font-family="ui-monospace, 'SF Mono', monospace" font-size="14" fill="#52525b">36.75&#176;N 3.06&#176;E</text>
+  <text x="1128" y="296" text-anchor="end" font-family="ui-monospace, 'SF Mono', monospace" font-size="14" fill="#52525b">est. dz &#183; remote-first</text>
+</svg>
